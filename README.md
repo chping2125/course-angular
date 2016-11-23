@@ -17,3 +17,10 @@ fekit server -n
 ```
 -n是指忽略fekit的export配置。
 关于fekit的使用，请访问[官方网站](http://ued.qunar.com/fekit/)
+
+### Angular的几个资源
+1. [Angular徐飞相关文章](https://github.com/chping2125/blog)
+2. [Angular脏检查详解](https://github.com/xufei/Make-Your-Own-AngularJS/blob/master/01.md)
+3. [深入浅出AngularJs中的Service](http://blog.csdn.net/feiying008/article/details/50082107)
+4. [angular.js中指令compile与link原理剖析](http://www.bubuko.com/infodetail-694161.html)
+5. [Angular's jqLite API](http://www.bubuko.com/infodetail-694161.html)

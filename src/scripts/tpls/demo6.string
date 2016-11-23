@@ -1,0 +1,6 @@
+<div ng-controller="myController">
+  <div><input type="text" ng-model="item" ng-keyup="add($event)"></div>
+  <ul>
+    <li ng-repeat="item in items track by $index">{{$index}}.{{item}} <button ng-click="remove($index)">X</button></li>
+  </ul>
+</div>

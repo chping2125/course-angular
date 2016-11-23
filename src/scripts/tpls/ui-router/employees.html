@@ -1,0 +1,12 @@
+<h1>employees</h1>
+
+搜索：<input ng-model="employeeCtrl.keywords" />
+<button ng-click="employeeCtrl.search()">搜索</button>
+
+<div ng-repeat="employee in employeeCtrl.employees">
+	<a href="#/employee/{{employee.id}}">{{employee.firstName}}</a> {{employee.gender}}
+</div>
+
+<br />
+
+<div><button ng-click="employeeCtrl.reload()">重新加载</button></div>

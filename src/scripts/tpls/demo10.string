@@ -1,0 +1,9 @@
+<div>
+    <div ng-controller="showController">
+      {{user.id}}/{{user.name}}/{{user.email}}
+    </div>
+    <div ng-controller="saveController">
+      {{user.id}}/{{user.name}}/{{user.email}}
+      <button ng-click="save('2', 'pengzhan', 'pengzhan@qq.com')">保存</button>
+    </div>
+</div>

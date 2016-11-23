@@ -1,0 +1,18 @@
+<table border="1">
+  <tr>
+    <td colspan="2">header</td>
+  </tr>
+  <tr>
+    <td class="leftMenu">
+      <a href="#/home">home</a>
+      <a href="#/course">course</a>
+      <a href="#/employee">employee</a>
+    </td>
+    <td class="mainContent">
+      <ng-view></ng-view>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="footer">footer</td>
+  </tr>
+</table>

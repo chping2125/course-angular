@@ -1,0 +1,4 @@
+<div ng-controller="myController">
+  <div>{{counter}}</div>
+  <div><button ng-click="add()"> + </button></div>
+</div>

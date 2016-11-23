@@ -1,0 +1,7 @@
+<div>
+    <ul>
+      <li ng-repeat="p in persons">
+        {{p.name}}/{{p.age}}/{{p.gender | gender}}
+      </li>
+    </ul>
+</div>

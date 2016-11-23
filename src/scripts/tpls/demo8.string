@@ -1,0 +1,13 @@
+<div ng-controller="myController">
+    <div><input type="text" ng-model="searchText"></div>
+    <table border="1">
+      <tr>
+        <th>name</th>
+        <th>phone</th>
+      </tr>
+      <tr ng-repeat="f in friends | limitTo:10 | filter:search:value">
+        <td>{{f.name}}</td>
+        <td>{{f.phone}}</td>
+      </tr>
+    </table>
+</div>

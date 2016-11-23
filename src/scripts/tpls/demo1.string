@@ -1,0 +1,4 @@
+<div ng-controller="myController">
+  <div ng-bind="users[1].name"></div>
+  <div>{{users[0].name}}</div>
+</div>

@@ -1,0 +1,7 @@
+<div ng-controller="myController">
+  <div ng-repeat="user in users">
+    <div>{{$index}}、</div>
+    <div>{{user.name}}</div>
+    <div>{{user.name}}</div>
+  </div>
+</div>

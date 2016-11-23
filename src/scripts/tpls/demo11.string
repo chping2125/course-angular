@@ -1,0 +1,11 @@
+<div>
+    <div ng-controller="provinceController as p">
+      {{p.name}}
+      <div ng-controller="cityController as c">
+        {{p.name}}-{{c.name}}
+        <div ng-controller="sectionController as s">
+          {{p.name}}-{{c.name}}-{{s.name}}
+        </div>
+      </div>
+    </div>
+</div>

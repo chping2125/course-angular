@@ -1,0 +1,5 @@
+<div ng-controller="myController">
+  <div ng-show="isShow">abc</div>
+  <div ng-hide="isShow">def</div>
+  <div ng-if="isShow">ghi</div>
+</div>

@@ -1,0 +1,7 @@
+<div ng-controller="myController">
+    <button ng-click="gameOn()">开始游戏</button>
+    <button ng-click="gameOver()">结束游戏</button>
+    <ul>
+      <li ng-repeat="item in items">{{item.name}}</li>
+    </ul>
+</div>

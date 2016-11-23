@@ -1,0 +1,6 @@
+<div class="demo15" ng-controller="parentCtrl">
+  <!-- <hello-world url="http://www.baidu.com" scroll-x="true"></hello-world> -->
+  <hello-world message2="message2"></hello-world>
+  <div>parent:{{message2}}</div>
+  <button ng-click="changeValue()">parent changeValue</button>
+</div>

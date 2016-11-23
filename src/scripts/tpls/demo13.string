@@ -1,0 +1,7 @@
+<div ng-controller="showController">
+    <select ng-model="template">
+      <option value="scripts/tpls/person.string">tpl1</option>
+      <option value="scripts/tpls/person2.string">tpl2</option>
+    </select>
+    <div ng-include="template"></div>
+</div>

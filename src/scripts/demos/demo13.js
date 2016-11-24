@@ -20,17 +20,17 @@ myApp.filter('gender', function(){
 myApp.controller('showController', function($scope) {
   var persons = [
     {
-      name: '彭展',
+      name: 'chping',
       age: 21,
       gender: 0
     },
     {
-      name: '杨金平',
+      name: 'chengping',
       age: 20,
       gender: 0
     },
     {
-      name: '苗园园',
+      name: 'chyan',
       age: 19,
       gender: 1
     }
@@ -38,17 +38,17 @@ myApp.controller('showController', function($scope) {
 
   var persons2 = [
     {
-      name: '彭展1',
+      name: 'lala',
       age: 21,
       gender: 0
     },
     {
-      name: '杨金平1',
+      name: 'lalala',
       age: 20,
       gender: 0
     },
     {
-      name: '苗园园1',
+      name: 'lalalala',
       age: 19,
       gender: 1
     }
@@ -56,5 +56,5 @@ myApp.controller('showController', function($scope) {
 
   $scope.persons = persons;
   $scope.persons2 = persons2;
-  $scope.template = 'scripts/tpls/person.string';
+  $scope.template = 'src/scripts/tpls/person.string';
 });

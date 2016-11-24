@@ -20,17 +20,17 @@ myApp.filter('gender', function(){
 myApp.controller('showController', function($scope) {
   var persons = [
     {
-      name: '彭展',
+      name: 'chping',
       age: 21,
       gender: 0
     },
     {
-      name: '杨金平',
+      name: 'chengping',
       age: 20,
       gender: 0
     },
     {
-      name: '苗园园',
+      name: 'chyan',
       age: 19,
       gender: 1
     }

@@ -7,8 +7,8 @@ var myApp = angular.module('myApp', []);
 myApp.factory('User', function(){
   var user = {
     id: 1,
-    name: 'lurongtao',
-    email: 'lurongtao@1000phone.com'
+    name: 'chping',
+    email: 'chping@website.com'
   };
 
   var _getUser = function() {

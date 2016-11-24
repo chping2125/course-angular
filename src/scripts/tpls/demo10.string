@@ -4,6 +4,6 @@
     </div>
     <div ng-controller="saveController">
       {{user.id}}/{{user.name}}/{{user.email}}
-      <button ng-click="save('2', 'pengzhan', 'pengzhan@qq.com')">保存</button>
+      <button ng-click="save('2', 'chengping', 'chengping@website.com')">保存</button>
     </div>
 </div>

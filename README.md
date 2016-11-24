@@ -5,7 +5,7 @@ Angular学习时的17个基础demo，真的很基础。
 ## 简介
 17个基础demo涉及了Angular的数据双向绑定，常用指令，过滤器，自定义指令，controller之间的通信，ng-Route,ui-Router几方面的基础知识。
 
-关于这17个demo的更多介绍，可以查看我的blog[前端小开发](http://chping.website)
+关于这17个demo的更多介绍，可以查看我的blog[前端小开发](http://chping.website),搜索**Angular基础入门**系列文章。
 
 ## 使用
 ### 下载
